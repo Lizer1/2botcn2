@@ -225,24 +225,6 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on('message', msg => {
-  if (msg.content === '2help') {
-    msg.reply('  لستغيل اغنية 
-      ``2play``
-      ايقاف اغنية 
-      ``2stop``
-      تخطى اغنية
-      ``2skip``
-      مستوى الصوت 
-    ``2vol``
-      ايقاف مؤقت
-      ``2Songs Queue``
-      معرفة ماذا يعمل
-      ``2np``');
-  }
-});
-
-
 
 
 
